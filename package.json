@@ -1,0 +1,19 @@
+{
+  "name": "tenrec-ui",
+  "version": "1.0.0",
+  "description": "A set of reusable React UI components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabidkitten/tenrec-ui.git"
+  },
+  "author": "Andrew McKendrick",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rabidkitten/tenrec-ui/issues"
+  },
+  "homepage": "https://github.com/rabidkitten/tenrec-ui#readme"
+}
