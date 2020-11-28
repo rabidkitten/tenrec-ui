@@ -4,7 +4,7 @@
   "description": "A set of reusable React UI components.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,31 @@
   "bugs": {
     "url": "https://github.com/rabidkitten/tenrec-ui/issues"
   },
-  "homepage": "https://github.com/rabidkitten/tenrec-ui#readme"
+  "homepage": "https://github.com/rabidkitten/tenrec-ui#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=17.0.1",
+    "prop-types": ">=15.7.2",
+    "moment": ">=2.29.1"
+  },
+  "devDependencies": {
+    "react": ">=17.0.1",
+    "prop-types": ">=15.7.2",
+    "moment": ">=2.29.1",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.8.0",
+    "webpack-cli": "^4.2.0"
+  }
 }
