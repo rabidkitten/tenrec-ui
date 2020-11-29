@@ -17,10 +17,10 @@ import moment from 'moment';
  */
 function CopyrightYear(props) {
   const { baseYear } = props;
-  const currentYear = moment().utc().year();
+  const currentYear = moment().year();
 
   let copyrightYear = null;
-  if (currentYear === baseYear) {
+  if (!baseYear || currentYear === baseYear) {
     copyrightYear = currentYear;
   } else {
     copyrightYear = `${baseYear}-${currentYear}`;
@@ -35,5 +35,9 @@ export default CopyrightYear;
 
 CopyrightYear.propTypes = {
   /** The first copyright year. For example: 2010 */
-  baseYear: PropTypes.number.isRequired,
+  baseYear: PropTypes.number,
+};
+
+CopyrightYear.defaultProps = {
+  baseYear: null,
 };

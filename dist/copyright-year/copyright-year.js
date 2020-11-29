@@ -1,6 +1,6 @@
 "use strict";
 
-var _interopRequireDefault = require("/Volumes/Mac/Addiction/website/tenrec-ui/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
