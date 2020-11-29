@@ -5,3 +5,7 @@ node_modules
 webpack.config.js
 .gitignore
 .eslintcache
+cspell.json
+.eslintignore
+jest.config.js
+*.yml

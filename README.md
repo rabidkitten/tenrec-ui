@@ -25,6 +25,8 @@ You can view a demo [here](https://codesandbox.io/s/tenrec-ui-m3kor).
 
 ## Contributing
 
+Contributing guidelines are available [here](CONTRIBUTING.md)
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
