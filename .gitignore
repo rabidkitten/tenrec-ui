@@ -1,3 +1,6 @@
-node_modules
+# Please maintain ignores in alphabetic order or in commented groups in
+# alphabetical order.
 build
 coverage
+dist
+node_modules
