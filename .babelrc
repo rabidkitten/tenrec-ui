@@ -1,7 +1,6 @@
 {
-  "presets": ["@babel/preset-react"],
-  "ignore": [
-    "**/*.test.js",
-    "**/*.test.jsx"
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-env"
   ]
 }

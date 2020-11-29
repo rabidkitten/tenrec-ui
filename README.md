@@ -8,6 +8,8 @@ Tenrec UI is a set of React UI components.
 
 Tenrec UI is named after the "Tenrec" - a kitten-sized, stout-bodied, nocturnal mammal endemic to Madagascar.
 
+![Tenrec](./docs/tenrec.jpg)
+
 ## Installation
 
 Tenrec UI is available as an [npm package](https://www.npmjs.com/package/tenrec-ui).
