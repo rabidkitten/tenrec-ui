@@ -10,7 +10,7 @@ Tenrec UI is named after the "Tenrec" - a kitten-sized, stout-bodied, nocturnal 
 
 ## Installation
 
-Tenrec UI is available as an [npm package(https://www.npmjs.com/package/tenrec-ui)]
+Tenrec UI is available as an [npm package](https://www.npmjs.com/package/tenrec-ui).
 
 ```sh
 // with npm
