@@ -1,5 +1,7 @@
 # Tenrec UI
 
+[![Build Status](https://travis-ci.org/rabidkitten/tenrec-ui.svg?branch=main)](https://travis-ci.org/rabidkitten/tenrec-ui)
+
 Tenrec UI is a set of React UI components.
 
 ## About the Name
