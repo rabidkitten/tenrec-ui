@@ -7,5 +7,11 @@ cache:
 script:
   - npm test
   - npm run build
+notifications:
+  email:
+    recipients:
+      - ditus@rocketmail.com
+    on_success: always
+    on_failure: always
 on:
   branch: master
