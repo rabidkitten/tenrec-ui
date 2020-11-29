@@ -17,6 +17,10 @@ Tenrec UI is available as an [npm package](https://www.npmjs.com/package/tenrec-
 npm install tenrec-ui
 ```
 
+## Demo
+
+You can view a demo [here](https://codesandbox.io/s/tenrec-ui-m3kor).
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
