@@ -30,7 +30,7 @@ export default {
     commonjs(),
     jsx({ factory: 'React.createElement' }),
   ],
-  external: (id) => /^react|styled-jsx|moment/.test(id),
+  external: (id) => /^react|styled-jsx|moment|@fortawesome/.test(id),
   // plugins: [
   //   css(),
   //   jsx(),

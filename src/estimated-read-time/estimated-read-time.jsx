@@ -33,7 +33,7 @@ function EstimatedReadTime(props) {
 
   return (
     <span className="estimated-read-time">
-      <FontAwesomeIcon icon={['far', 'clock']} />
+      <FontAwesomeIcon className="estimated-read-time-icon" icon={['far', 'clock']} />
       {caption}
     </span>
   );
