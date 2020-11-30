@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 import './zoom-image.css';
 
 /**
@@ -16,7 +17,7 @@ function ZoomImage(props) {
   const { imageUrl, alt, className } = props;
 
   elements = (
-    <div className={`zoom-image ${className || ''}`}>
+    <div className={classnames('zoom-image', className)}>
       <img className="zoom-image-image" src={imageUrl} alt={alt} />
     </div>
   );

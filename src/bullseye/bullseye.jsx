@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 import './bullseye.css';
 
 /**
@@ -24,7 +25,7 @@ export default function Bullseye(props) {
   }
 
   return (
-    <div className={`bullseye ${style} ${className || ''}`} />
+    <div className={classnames('bullseye', style, className)} />
   );
 }
 

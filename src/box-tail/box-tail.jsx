@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import classnames from 'classnames';
 import './box-tail.css';
 
 /**
@@ -24,7 +25,7 @@ function BoxTail(props) {
   }
 
   return (
-    <div className={`box-tail ${style} ${className || ''}`} />
+    <div className={classnames('box-tail', style, className)} />
   );
 }
 

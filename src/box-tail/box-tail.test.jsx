@@ -21,7 +21,7 @@ it('does not display any additional class name when no className attribute is sp
   act(() => {
     render(<BoxTail />, container);
   });
-  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('box-tail box-tail-left ');
+  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('box-tail box-tail-left');
 });
 
 it('includes the additional class name when a className attribute is specified.', () => {
@@ -35,12 +35,12 @@ it('includes the correct class name when the right attribute is specified', () =
   act(() => {
     render(<BoxTail right />, container);
   });
-  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('box-tail box-tail-right ');
+  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('box-tail box-tail-right');
 });
 
 it('includes the correct class name when the right attribute is not specified', () => {
   act(() => {
     render(<BoxTail />, container);
   });
-  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('box-tail box-tail-left ');
+  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('box-tail box-tail-left');
 });

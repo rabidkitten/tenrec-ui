@@ -21,7 +21,7 @@ it('does not display any additional class name when no className attribute is sp
   act(() => {
     render(<ZoomImage imageUrl="./test.jpg" alt="test" />, container);
   });
-  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('zoom-image ');
+  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('zoom-image');
 });
 
 it('includes the additional class name when a className attribute is specified.', () => {
