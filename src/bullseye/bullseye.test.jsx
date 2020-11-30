@@ -31,14 +31,14 @@ it('includes the additional class name when a className attribute is specified.'
   expect(container.querySelector('div:first-child').getAttribute('class')).toBe('bullseye bullseye-empty example');
 });
 
-it('includes the correct class name when the solid attribute is specified', () => {
+it('includes the correct class name when the solid attribute is specified.', () => {
   act(() => {
     render(<Bullseye solid />, container);
   });
   expect(container.querySelector('div:first-child').getAttribute('class')).toBe('bullseye bullseye-solid');
 });
 
-it('includes the correct class name when the solid attribute is not specified', () => {
+it('includes the correct class name when the solid attribute is not specified.', () => {
   act(() => {
     render(<Bullseye />, container);
   });

@@ -45,8 +45,10 @@ These are the components available in the latest version of the library:
 | [Box Tail](docs/BOX-TAIL.md)  | ![Box Tail Left](docs/box-tail-left.png)  |
 | [Bullseye](docs/BULLSEYE.md)  | ![Bullseye Solid](docs/bullseye-solid.png) |
 | [Copyright Year](docs/COPYRIGHT-YEAR.md)  | ![Copyright Year](docs/copyright-year-base-year.png) |
-| [Zoom Image](docs/ZOOM-IMAGE.md)  | N/A |
+| [Embossed Heading](docs/EMBOSSED-HEADING.md) | ![Embossed Heading](docs/embossed-heading.png) |
 | [Estimated Read Time](docs/ESTIMATED-READ-TIME.md)  | ![Estimated Read Time](docs/estimated-read-time-template.png) |
+| [Zoom Image](docs/ZOOM-IMAGE.md)  | N/A |
+
 
 ## Contributing
 
