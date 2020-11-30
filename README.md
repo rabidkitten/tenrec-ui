@@ -2,6 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Build Status](https://travis-ci.org/rabidkitten/tenrec-ui.svg?branch=main)](https://travis-ci.org/rabidkitten/tenrec-ui)
+[![Coverage Status](https://coveralls.io/repos/github/rabidkitten/tenrec-ui/badge.svg)](https://coveralls.io/github/rabidkitten/tenrec-ui)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
 
 Tenrec UI is a set of React UI components.
