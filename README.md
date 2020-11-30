@@ -44,6 +44,7 @@ These are the components available in the latest version of the library:
 | [Box Tail](DOCS/BOX-TAIL.md)  | ![Box Tail Left](docs/box-tail-left.png)  |
 | [Bullseye](DOCS/BULLSEYE.md)  | ![Bullseye Solid](docs/bullseye-solid.png) |
 | [Copyright Year](DOCS/COPYRIGHT-YEAR.md)  | ![Copyright Year](docs/copyright-year-base-year.png) |
+| [Zoom Image](DOCS/ZOOM-IMAGE.md)  | N/A |
 
 ## Contributing
 
