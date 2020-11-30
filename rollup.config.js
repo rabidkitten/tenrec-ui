@@ -3,6 +3,7 @@ import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import jsx from 'rollup-plugin-jsx';
 import postcss from 'rollup-plugin-postcss';
+import { terser } from "rollup-plugin-terser";
 import pkg from './package.json';
 
 export default {
@@ -11,6 +12,7 @@ export default {
     {
       file: pkg.main,
       format: 'cjs',
+      plugins: [terser()],
       // exports: 'named',
       // sourcemap: true,
       // strict: false,
@@ -20,6 +22,7 @@ export default {
     postcss({
       extract: false,
       modules: false,
+      minimize: true,
     }),
     babel({
       exclude: 'node_modules/**',
