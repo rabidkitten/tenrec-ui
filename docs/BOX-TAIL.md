@@ -19,5 +19,5 @@ Box Tails are triangles that are designed to be drawn next to a four-sided shape
 ## API
 
 | Name  | Type  | Default | Description |
-|---|---|---|---|---|
+|---|---|---|---|
 | right | Boolean | false | Optional. True to point the box tail to the right; otherwise, false to point the box tail to the left. |

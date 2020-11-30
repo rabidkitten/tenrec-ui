@@ -41,11 +41,11 @@ These are the components available in the latest version of the library:
 
 | Component  | Example  |
 |---|---|
-| [Box Tail](DOCS/BOX-TAIL.md)  | ![Box Tail Left](docs/box-tail-left.png)  |
-| [Bullseye](DOCS/BULLSEYE.md)  | ![Bullseye Solid](docs/bullseye-solid.png) |
-| [Copyright Year](DOCS/COPYRIGHT-YEAR.md)  | ![Copyright Year](docs/copyright-year-base-year.png) |
-| [Zoom Image](DOCS/ZOOM-IMAGE.md)  | N/A |
-| [Estimated Read Time](DOCS/ESTIMATED-READ-TIME.md)  | ![Estimated Read Time](docs/estimated-read-time-template.png) |
+| [Box Tail](docs/BOX-TAIL.md)  | ![Box Tail Left](docs/box-tail-left.png)  |
+| [Bullseye](docs/BULLSEYE.md)  | ![Bullseye Solid](docs/bullseye-solid.png) |
+| [Copyright Year](docs/COPYRIGHT-YEAR.md)  | ![Copyright Year](docs/copyright-year-base-year.png) |
+| [Zoom Image](docs/ZOOM-IMAGE.md)  | N/A |
+| [Estimated Read Time](docs/ESTIMATED-READ-TIME.md)  | ![Estimated Read Time](docs/estimated-read-time-template.png) |
 
 ## Contributing
 

@@ -19,5 +19,5 @@ A bullseye resembles the name itself; it is either a solid or empty circle that 
 ## API
 
 | Name  | Type  | Default | Description |
-|---|---|---|---|---|
+|---|---|---|---|
 | solid | Boolean | false | Optional. True to display a solid bullseye; otherwise, false to display an empty bullseye. |

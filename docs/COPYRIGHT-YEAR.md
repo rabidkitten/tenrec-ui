@@ -19,5 +19,5 @@ Many web pages and applications display a copyright year such as `2010` or `2010
 ## API
 
 | Name  | Type  | Default | Description |
-|---|---|---|---|---|
+|---|---|---|---|
 | baseYear | Integer | null | Optional. When displaying a hyphenated year, this is the starting year. For example, in 2010-2020, this value would be 2010 |
