@@ -19,7 +19,7 @@ export default function Bullseye(props) {
   const { className, solid } = props;
 
   let style = 'bullseye-empty';
-  if (solid === undefined || solid) {
+  if (solid) {
     style = 'bullseye-solid';
   }
 
