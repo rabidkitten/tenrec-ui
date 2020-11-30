@@ -1,7 +1,7 @@
 # Please maintain ignores in alphabetic order or in commented groups in
 # alphabetical order.
+.eslintcache
 build
 coverage
 dist
 node_modules
-.eslintcache

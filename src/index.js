@@ -5,6 +5,8 @@ import Bullseye from './bullseye/bullseye';
 import EstimatedReadTime from './estimated-read-time/estimated-read-time';
 import ZoomImage from './zoom-image/zoom-image';
 
+import 'typeface-montserrat';
+
 FontAwesome();
 
 export { BoxTail };
