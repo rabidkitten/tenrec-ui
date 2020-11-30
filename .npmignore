@@ -9,3 +9,4 @@ cspell.json
 .eslintignore
 jest.config.js
 *.yml
+coverage

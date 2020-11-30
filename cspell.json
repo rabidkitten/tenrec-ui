@@ -2,10 +2,18 @@
   "words": [
     "Affero",
     "automock",
+    "browserslist",
+    "fontawesome",
+    "fortawesome",
     "Serializers",
     "Sublicensing",
     "unmocked",
     "unmount",
     "WIPO"
+  ],
+  "ignorePaths": [
+    "package-lock.json",
+    "coverage",
+    "dist"
   ]
 }

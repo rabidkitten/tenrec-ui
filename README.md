@@ -45,6 +45,7 @@ These are the components available in the latest version of the library:
 | [Bullseye](DOCS/BULLSEYE.md)  | ![Bullseye Solid](docs/bullseye-solid.png) |
 | [Copyright Year](DOCS/COPYRIGHT-YEAR.md)  | ![Copyright Year](docs/copyright-year-base-year.png) |
 | [Zoom Image](DOCS/ZOOM-IMAGE.md)  | N/A |
+| [Estimated Read Time](DOCS/ESTIMATED-READ-TIME.md)  | ![Estimated Read Time](docs/estimated-read-time-template.png) |
 
 ## Contributing
 
