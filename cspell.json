@@ -5,6 +5,7 @@
     "browserslist",
     "classnames",
     "davidanson",
+    "eslintcache",
     "fontawesome",
     "fortawesome",
     "lcov",
@@ -17,6 +18,7 @@
     "WIPO"
   ],
   "ignorePaths": [
+    ".eslintcache",
     "package-lock.json",
     "coverage",
     "dist"
