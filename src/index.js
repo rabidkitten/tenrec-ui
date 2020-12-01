@@ -1,24 +1,11 @@
-import FontAwesome from './font-awesome';
-import CopyrightYear from './copyright-year/copyright-year';
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
+import ReactDOM from 'react-dom';
 import BlockQuote from './block-quote/block-quote';
-import BoxTail from './box-tail/box-tail';
-import Bullseye from './bullseye/bullseye';
-import Divider from './divider/divider';
-import EmphasizedHeading from './emphasized-heading/emphasized-heading';
-import EmbossedHeading from './embossed-heading/embossed-heading';
-import EstimatedReadTime from './estimated-read-time/estimated-read-time';
-import ZoomImage from './zoom-image/zoom-image';
 
-import 'typeface-montserrat';
-
-FontAwesome();
-
-export { BlockQuote };
-export { BoxTail };
-export { Bullseye };
-export { CopyrightYear };
-export { Divider };
-export { EmbossedHeading };
-export { EmphasizedHeading };
-export { EstimatedReadTime };
-export { ZoomImage };
+ReactDOM.render(
+  <React.StrictMode>
+    <BlockQuote quote="Hello Word!" author="Unknown" />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
