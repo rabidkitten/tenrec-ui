@@ -1,0 +1,27 @@
+.divider {
+  width: 100%;
+  text-align: center;
+  line-height: 0.1em;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 10px 0 20px;
+}
+
+.divider-thick-line {
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.divider-dotted-line {
+  border-bottom: 2px dotted #e5e5e5;
+}
+
+.divider-dashed-line {
+  border-bottom: 2px dashed #e5e5e5;
+}
+
+.divider-text {
+  font-family: 'Montserrat';
+  background:#fff;
+  padding: 0 15px;
+  color: #a6a6a6;
+  font-size: 0.9em;
+}
