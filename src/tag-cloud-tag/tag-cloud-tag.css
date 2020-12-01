@@ -1,0 +1,35 @@
+.tag-cloud-tag {
+  margin: 5px 5px 5px 5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 6px 12px;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.tag-cloud-tag-size1 {
+  font-size: 0.8em;
+}
+
+.tag-cloud-tag-size2 {
+  font-size: 0.9em;
+}
+
+.tag-cloud-tag-size3 {
+  font-size: 1em;
+}
+
+.tag-cloud-tag-size4 {
+  font-size: 1.1em;
+}
+
+.tag-cloud-tag-size5 {
+  font-size: 1.2em;
+}
