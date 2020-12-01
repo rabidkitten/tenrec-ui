@@ -44,6 +44,7 @@ These are the components available in the latest version of the library:
 | [Bullseye](docs/BULLSEYE.md)  | ![Bullseye Solid](docs/bullseye-solid.png) |
 | [Divider](docs/DIVIDER.md)  | ![Divider Solid](docs/divider-solid-text.png) |
 | [Copyright Year](docs/COPYRIGHT-YEAR.md)  | ![Copyright Year](docs/copyright-year-base-year.png) |
+| [Emphasized Heading](docs/EMPHASIZED-HEADING.md)  | ![Emphasized Heading](docs/emphasized-heading.png) |
 | [Embossed Heading](docs/EMBOSSED-HEADING.md) | <img alt="Embossed Heading" src="docs/embossed-heading.png" width="100" /> |
 | [Estimated Read Time](docs/ESTIMATED-READ-TIME.md)  | ![Estimated Read Time](docs/estimated-read-time-template.png) |
 | [Zoom Image](docs/ZOOM-IMAGE.md)  | N/A |
