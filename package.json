@@ -1,6 +1,6 @@
 {
   "name": "tenrec-ui",
-  "version": "1.0.58",
+  "version": "1.0.59",
   "description": "A set of reusable React UI components.",
   "private": false,
   "main": "dist/index.js",
@@ -8,6 +8,7 @@
     "dist"
   ],
   "scripts": {
+    "start": "PUBLIC_URL=/ react-scripts start",
     "build": "rm -rf dist && rollup -c",
     "test": "jest --coverage",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
@@ -68,7 +69,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react-scripts": "^4.0.1",
     "rollup": "^2.34.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
