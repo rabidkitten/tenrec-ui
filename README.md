@@ -39,6 +39,7 @@ These are the components available in the latest version of the library:
 
 | Component  | Example  |
 |---|---|
+| [Block Quote](docs/BLOCK-QUOTE.md)  | ![Block Quote](docs/block-quote.png)  |
 | [Box Tail](docs/BOX-TAIL.md)  | ![Box Tail Left](docs/box-tail-left.png)  |
 | [Bullseye](docs/BULLSEYE.md)  | ![Bullseye Solid](docs/bullseye-solid.png) |
 | [Copyright Year](docs/COPYRIGHT-YEAR.md)  | ![Copyright Year](docs/copyright-year-base-year.png) |

@@ -14,7 +14,8 @@ here.
 All markdown files have an uppercase name with a lowercase `md` extension. For
 example, `CONTRIBUTING.md`
 
-File names with multiple words use hyphens to separate each word. For example, `CODE-OF-CONDUCT.md`
+File names with multiple words use hyphens to separate each word. For example,
+`CODE-OF-CONDUCT.md`
 
 ### File Locations
 
