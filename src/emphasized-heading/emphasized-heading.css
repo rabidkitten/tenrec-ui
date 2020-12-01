@@ -1,0 +1,12 @@
+.emphasized-heading {
+  font-size: 36px;
+  font-family: "Cormorant Garamond";
+  color: #3e3e3e;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.emphasized-heading strong {
+  font-weight: 700;
+}

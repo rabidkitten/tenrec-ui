@@ -1,6 +1,6 @@
 {
   "name": "tenrec-ui",
-  "version": "1.0.57",
+  "version": "1.0.58",
   "description": "A set of reusable React UI components.",
   "private": false,
   "main": "dist/index.js",
@@ -48,6 +48,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
+    "@types/jest": "^26.0.15",
     "babel-core": "^6.26.3",
     "babel-jest": "^26.6.3",
     "babel-loader": "8.1.0",
