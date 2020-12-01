@@ -1,6 +1,7 @@
 # Box Tails
 
-Box Tails are triangles that are designed to be drawn next to a four-sided shape (such as a rectangle or square) and point in either a left or right direction.
+Box Tails are triangles that are designed to be drawn next to a four-sided shape
+(such as a rectangle or square) and point in either a left or right direction.
 
 ## Example
 

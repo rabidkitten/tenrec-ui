@@ -1,5 +1,6 @@
 import FontAwesome from './font-awesome';
 import CopyrightYear from './copyright-year/copyright-year';
+import BlockQuote from './block-quote/block-quote';
 import BoxTail from './box-tail/box-tail';
 import Bullseye from './bullseye/bullseye';
 import EmbossedHeading from './embossed-heading/embossed-heading';
@@ -10,6 +11,7 @@ import 'typeface-montserrat';
 
 FontAwesome();
 
+export { BlockQuote };
 export { BoxTail };
 export { Bullseye };
 export { CopyrightYear };
