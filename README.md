@@ -49,6 +49,7 @@ These are the components available in the latest version of the library:
 | [Estimated Read Time](docs/ESTIMATED-READ-TIME.md)  | ![Estimated Read Time](docs/estimated-read-time-template.png) |
 | [Tag Cloud](docs/TAG-CLOUD.md)  | ![Tag Cloud Tag](docs/tag-cloud.png) |
 | [Tag Cloud Tag](docs/TAG-CLOUD-TAG.md)  | ![Tag Cloud Tag](docs/tag-cloud-tag.png) |
+| [Time Line](docs/TIME-LINE.md)  | ![Time Line](docs/time-line.png) |
 | [Time Line Card](docs/TIME-LINE-CARD.md)  | ![Time Line Card](docs/time-line-card.png) |
 | [Zoom Image](docs/ZOOM-IMAGE.md)  | N/A |
 

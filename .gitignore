@@ -1,5 +1,6 @@
 # Please maintain ignores in alphabetic order or in commented groups in
 # alphabetical order.
+.DS_Store
 .eslintcache
 build
 coverage

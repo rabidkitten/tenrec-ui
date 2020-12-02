@@ -81,11 +81,11 @@
   border-top-left-radius: calc(.25rem - 1px);
   border-top-right-radius: calc(.25rem - 1px);
   display: block;
-  height: 180px;
   z-index: 1;
 }
 
 .time-line-card-image img {
   object-fit: cover;
   width: 100%;
+  height: 180px;
 }
