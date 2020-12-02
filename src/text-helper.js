@@ -83,7 +83,7 @@ class TextHelper {
     }
 
     let words = this.getWords(text);
-    if (words.length < index) {
+    if (words.length - 1 < index) {
       return '';
     }
 

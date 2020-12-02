@@ -1,11 +1,11 @@
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BlockQuote from './block-quote/block-quote';
+import TagCloud from './tag-cloud/tag-cloud';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BlockQuote quote="Hello Word!" author="Unknown" />
+    <TagCloud tags={[{ tag: 'Toronto', value: 3 }, { tag: 'Edmonton', value: 100 }]} />
   </React.StrictMode>,
   document.getElementById('root'),
 );

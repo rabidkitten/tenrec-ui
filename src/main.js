@@ -7,6 +7,7 @@ import Divider from './divider/divider';
 import EmphasizedHeading from './emphasized-heading/emphasized-heading';
 import EmbossedHeading from './embossed-heading/embossed-heading';
 import EstimatedReadTime from './estimated-read-time/estimated-read-time';
+import TagCloudTag from './tag-cloud-tag/tag-cloud-tag';
 import ZoomImage from './zoom-image/zoom-image';
 
 import 'typeface-montserrat';
@@ -21,4 +22,5 @@ export { Divider };
 export { EmbossedHeading };
 export { EmphasizedHeading };
 export { EstimatedReadTime };
+export { TagCloudTag };
 export { ZoomImage };
