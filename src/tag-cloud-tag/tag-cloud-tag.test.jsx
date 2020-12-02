@@ -43,11 +43,11 @@ it('uses a size of 1 when the size attribute is less than 1.', () => {
   expect(container.querySelector('div:first-child').getAttribute('class')).toBe('tag-cloud-tag tag-cloud-tag-size1');
 });
 
-it('uses a size of 6 when the size attribute is greater than 6.', () => {
+it('uses a size of 6 when the size attribute is greater than 5.', () => {
   act(() => {
-    render(<TagCloudTag tag="Toronto" size={7} />, container);
+    render(<TagCloudTag tag="Toronto" size={6} />, container);
   });
-  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('tag-cloud-tag tag-cloud-tag-size6');
+  expect(container.querySelector('div:first-child').getAttribute('class')).toBe('tag-cloud-tag tag-cloud-tag-size5');
 });
 
 it('displays the text specified by the tag attribute.', () => {

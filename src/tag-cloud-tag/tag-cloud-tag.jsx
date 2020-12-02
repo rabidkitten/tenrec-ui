@@ -16,9 +16,9 @@ function TagCloudTag(props) {
   const { className, tag } = props;
   let { size } = props;
 
-  // Limit the size is between 1 and 6.
+  // Limit the size is between 1 and 5.
   size = Math.max(size, 1);
-  size = Math.min(size, 6);
+  size = Math.min(size, 5);
 
   return (
     <div className={classnames('tag-cloud-tag', `tag-cloud-tag-size${size}`, className)}>{tag}</div>
