@@ -1,0 +1,91 @@
+.time-line-card {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #212529;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+
+.time-line-card-title {
+  text-align: left;
+  color: #212529;
+  box-sizing: border-box;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  margin-bottom: .75rem;
+}
+
+.time-line-card-sub-title {
+  text-align: left;
+  box-sizing: border-box;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1rem;
+  margin-top: -.375rem;
+  margin-bottom: .5rem;
+  color: #6c757d;
+}
+
+.time-line-card-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.time-line-card-body {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.time-line-card-tail-right {
+  position: absolute;
+  top: 25px;
+  right: -5px;
+}
+
+.time-line-card-tail-left {
+  position: absolute;
+  top: 25px;
+  left: -5px;
+}
+
+.time-line-card-image {
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: #212529;
+  box-sizing: border-box;
+  border-style: none;
+  flex-shrink: 0;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  display: block;
+  height: 180px;
+  z-index: 1;
+}
+
+.time-line-card-image img {
+  object-fit: cover;
+  width: 100%;
+}

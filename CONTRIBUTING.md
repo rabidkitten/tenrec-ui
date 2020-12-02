@@ -6,6 +6,23 @@ Thank-you for your interest in contributing to Tenrec UI.
 
 Please refer to here for [Branching](BRANCHING.md) guidelines.
 
+## Tests
+
+All code must be tested. This includes new features and bug fixes. We use JEST
+for all testing and strive to achieve 100% code coverage.
+
+To run all tests and check for code coverage type:
+
+``` bash
+npm test
+```
+
+To run tests in a specific file type (example provided):
+
+``` bash
+npm test -- ./src/text-helper.test.js
+```
+
 ## JavaScript Standards
 
 We follow the AirBnB standard for all JavaScript programming. ESLint is
