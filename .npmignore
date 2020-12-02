@@ -1,5 +1,6 @@
 *.yml
 .babelrc
+.DS_Store
 .eslintcache
 .eslintignore
 .eslintrc.json

@@ -1,0 +1,42 @@
+.time-line {
+  display: grid;
+  grid-template-columns: auto 60px auto;
+  grid-gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.time-line-line {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  width: 10px;
+  height: 100%;
+  background-color: #dedede;
+  justify-self: center;
+}
+
+.time-line-empty {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.time-line-card-left {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  justify-self: right;
+}
+
+.time-line-card-right {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  justify-self: left;
+}
+
+.time-line-bullseye {
+  margin-top: 18px;
+  margin-left: -9px;
+  position: absolute;
+}
