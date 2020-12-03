@@ -29,6 +29,13 @@ it('includes the additional class name when a className attribute is specified.'
   expect(container.querySelector('div:first-child').getAttribute('class')).toBe('time-line example');
 });
 
+it('does not display any time cards, when the events argument is null.', () => {
+  act(() => {
+    render(<TimeLine events={null} />, container);
+  });
+  expect(container.querySelector('div:first-child').children.length).toBe(0);
+});
+
 it('does not display any time cards, when the events argument is not specified or is an empty array.', () => {
   act(() => {
     render(<TimeLine events={[]} />, container);
