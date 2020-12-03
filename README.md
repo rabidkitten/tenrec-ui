@@ -73,12 +73,10 @@ list of proposed features (and known issues).
 
 ## Contributing
 
-Contributing guidelines are available [here](CONTRIBUTING.md)
+Comprehensive documentation on how to contribute to this project are available [here](CONTRIBUTING.md)
 
-Pull requests are welcome. For major changes, please open an issue first to
-discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+This documentation is always being added to and please feel free to recommend
+additional areas where it can be improved.
 
 ## License
 
